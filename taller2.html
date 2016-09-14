@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Taller 2</title>
+	<script type="text/javascript" src="taller2.js"></script>
+</head>
+<body>
+  <table border=1px>
+  	<form name="formulario" method="post">
+  		<tr>
+  			<td>Nombre</td>
+  			<td><input type="text" name="nombre" id="nombre"></td>
+  		</tr>
+  		<tr>
+  			<td>Usuario</td>
+  			<td><input type="text" name="usuario" id="usuario" ></td>
+  		</tr>
+  		<tr>
+  			<td>Correo</td>
+  			<td><input type="text" name="correo" id="correo"></td>
+  		</tr>
+  		<tr>
+  			<td>Celular</td>
+  			<td><input type="text" name="celular" id="celular" ></td>
+  		</tr>
+  		<tr>
+  		    <td>
+  		    	Sexo
+  		    </td>
+  			<td >
+  				<input type="radio" name="sexo" value="masculino" id="sexo">Masculino<br>
+  				<input type="radio" name="sexo" value="femenino" id="sexo">Femenino<br>
+  			</td>
+  		</tr>
+  		<tr>
+  		    <td>Deporte</td>
+  			<td>
+  			    <select name="deporte" id="deporte">
+  			    	<option value="0"></option>
+  			    	<option value="5">Futbol</option>
+  			    	<option value="1">Beisbol</option>
+  			    	<option value="2">Baloncesto</option>
+  			    	<option value="3">Tenis</option>
+  			    	<option value="4">Rugby</option>
+  			    </select>
+  			</td>
+  		</tr>
+  		<tr><td colspan="2"><input type="button" name="enviar" value="Enviar" onclick="validacion()"></td></tr>
+  	</form>
+  </table>
+</body>
+</html>
